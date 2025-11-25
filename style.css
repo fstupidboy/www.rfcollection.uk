@@ -1,0 +1,83 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #888; /* Medium grey text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.side-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #aaa; /* Lighter grey for name */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.chinese-char {
+    font-size: 120px;
+    font-weight: bold;
+    color: #aaa; /* Lighter grey for char */
+    line-height: 1;
+}
+
+.image-column {
+    flex: 0 0 200px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%); /* Make image black and white */
+    display: block;
+}
+
+.content {
+    text-align: left;
+    color: #999;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.address {
+    margin-bottom: 20px;
+}
+
+.address p {
+    margin: 2px 0;
+}
+
+.text-body p {
+    margin-bottom: 15px;
+}
