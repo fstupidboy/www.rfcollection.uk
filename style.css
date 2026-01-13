@@ -81,3 +81,10 @@ body {
 .text-body p {
     margin-bottom: 15px;
 }
+
+.seo-note {
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
