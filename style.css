@@ -63,6 +63,14 @@ body {
     display: block;
 }
 
+.founder-title {
+    font-size: 14px;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
 .content {
     text-align: left;
     color: #999;
